@@ -1,0 +1,346 @@
+body{
+  font-family: optima;
+
+}
+.container{
+text-align: left;
+width: 100%;
+padding-left: 2%;
+border-bottom: 2px solid #dfdfdf;
+background-image: linear-gradient(to right, #fff, #dfdfdf);
+}
+.container .block1{
+  display: inline-block;
+  width: 40%;
+}
+.container .block2 {
+  display: inline-block;
+      width: 59%;
+}
+
+
+.container .block1 h1{
+  font-size: 2.8em;
+  color: #81ECE6;
+}
+.container .block2 li{
+    display: inline;
+    font-size: 1.9em;
+    padding-left: 0.8em;
+    padding-right: 0.8em;
+}
+.container .block2 li a{
+  text-decoration: none;
+  color: #bbbbbb;
+}
+
+.container .block2 li a:hover{
+  color: red;
+
+}
+section{
+  width: 100%;
+  text-align: left;
+  margin-top: 2.5em;
+  padding-top: 1%;
+}
+section .image-div{
+  width: 40%;
+  text-align: center;
+  border-right: 2px solid #dfdfdf;
+  display: inline-block;
+}
+section .image-div img{
+  border-radius: 50%
+}
+section .image-div img:hover{
+
+  border-radius: 0%;
+  box-shadow: 5px 5px 5px grey;
+}
+section .content-div{
+  width: 55%;
+  text-align: left;
+  padding-left:3%;
+  position: absolute;
+  display: inline-block;
+}
+
+section .cotent-div .about-myself{
+   width:70%;
+}
+section .content-div .mobile{
+  display: none;
+}
+section .content-div p{
+font-size:1.2em;
+font-weight: normal;
+color:#5E5E5E
+}
+section .content-div ul{
+  padding-left: 3%;
+}
+section .content-div  li{
+  font-size: 1.3em;
+  padding-top: 0%;
+  color: #5e5e5e;
+}
+
+
+.personal-info{
+  margin-top: 7%;
+  padding-left: 5%;
+  border-bottom: 2px solid #dfdfdf;
+}
+.table-div{
+  text-align: center;
+
+  margin-left: 5%;
+  margin-right: 5%;
+  padding-top: 2%;
+}
+.table-div .table1{
+  width: 40%;
+  display: inline-block;
+  margin-right: 3em;
+  box-shadow: 2px 2px 5px grey;
+}
+.table-div .table2{
+  width: 40%;
+  display: inline-block;
+  margin-left: 3em;
+  box-shadow: 2px 2px 5px grey;
+}
+#table-width{
+  width: 100%;
+}
+
+.table-div .table1 table tr td{
+  padding: 2% 2%;
+}
+
+.table-div .table2 table tr td{
+padding: 2% 2%;
+}
+#left-side{
+  font-size: 1.5em;
+  background-color: #c9c9c9;
+}
+#right-side{
+  font-size: 1.3em;
+  color: #a0a0a0;
+  background-color: #f0f0f0;
+}
+
+footer{
+
+  margin-top: 5%;
+  margin-left: 0%;
+  width: 100%;
+  position: absolute;
+  text-align: center;
+  color: #fff;
+  background-color: #646464;
+  padding: 1em;
+}
+
+
+@media only screen and (max-width: 1080px){
+
+  .container{
+  text-align: left;
+  width: 100%;
+  padding-left: 2%;
+  border-bottom: 2px solid #dfdfdf;
+  background-image: linear-gradient(to right, #fff, #fff);
+  }
+
+  .container .block1{
+
+    margin-top: 0%;
+    display: inline-block;
+
+    width: 40%;
+    height: 100%;
+  }
+  .container .block2 {
+    display: inline-block;
+
+    padding-top: 1em;
+        width: 59%;
+        height: 100%;
+  }
+  .container .block1 h1{
+    margin-bottom: 0.2em;
+    font-size: 2.8em;
+    color: #81ECE6;
+  }
+  .container .block2 li{
+      text-align: right;
+      display: block;
+      font-size: 1.9em;
+      padding-left: 0.8em;
+      padding-right: 0.8em;
+
+  }
+
+  .table-div{
+    text-align: center;
+  }
+
+  .table-div .table1{
+    width: 100%;
+    display: block;
+    margin-right: 0em;
+
+  }
+  .table-div .table2{
+    width: 100%;
+    display: block;
+    margin-left: 0em;
+
+  }
+
+  #left-side{
+    font-size: 1.5em;
+    width: 10em;
+    background-color: #c9c9c9;
+
+  }
+  #right-side{
+    font-size: 1.3em;
+    color: #a0a0a0;
+    background-color: #f0f0f0;
+  }
+
+  footer{
+    margin-top: 20%;
+  }
+
+
+
+
+}
+
+/* for mobile devices */
+@media only screen and (max-width: 800px){
+
+  body{
+    text-align: center;
+  }
+  .container{
+    width: 100%;
+
+  }
+  .container .block1{
+      width: 100%;
+  }
+  .container .block1 h1{
+    padding-left: 0.6em;
+    font-size: 2em;
+    color: #81ECE6;
+    text-align: center;
+  }
+  .container .block2 {
+
+    text-align: center;
+        width: 100%;
+  }
+
+  .container .block2 li{
+
+      font-size: 2em;
+      margin-top: 5%;
+      display: block;
+      text-align: center;
+      background-color: #dfdfdf;
+      border-radius: 20px;
+
+  }
+  section .image-div {
+
+    text-align: center;
+    width: 100%;
+    border-right: 0px;
+  }
+
+  section .image-div img{
+    padding-left: 2em;
+    border-radius: 0%;
+  }
+
+
+
+  section .content-div{
+
+    text-align: center;
+    width: 100%;
+    position: relative;
+    display: block;
+
+  }
+
+
+
+  section .content-div{
+  text-align: center;
+
+  }
+
+
+section .content-div .about-myself li{
+  text-align: center;
+
+}
+.personal-info{
+  margin-top: 7%;
+  padding-left: 5%;
+  border-bottom: 0px;
+}
+
+.table-div{
+  text-align: center;
+
+  margin-left: 0%;
+  margin-right: 0%;
+  padding-top: 0%;
+}
+
+.table-div .table1{
+  width: 100%;
+  display: block;
+  margin-left: 4%;
+  margin-right: 0%;
+
+
+
+
+}
+.table-div .table2 {
+  display: none;
+  
+}
+
+
+#table-width{
+  width: 100%;
+
+}
+
+#left-side{
+  font-size: 1.5em;
+  width: 5em;
+  background-color: #c9c9c9;
+
+}
+#right-side{
+  font-size: 1.3em;
+  color: #a0a0a0;
+  background-color: #f0f0f0;
+}
+
+  footer{
+    margin-top: 10%;
+
+  }
+}

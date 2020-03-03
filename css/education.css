@@ -1,0 +1,101 @@
+body{
+  width: 100%;
+}
+
+body a{
+  color: #aaaaaa;
+}
+body a:hover{
+  color: red;
+}
+section{
+border-bottom: 1px solid #dfdfdf;
+}
+
+.images-section{
+  width: 40%;
+  display: inline-block;
+  text-align: center;
+  margin-left: 2%;
+  padding-top: 2%;
+  border-right: 1px solid #dfdfdf;
+
+}
+.images-section img{
+  border: 1px solid black;
+  /* border-radius: 20px; */
+  box-shadow: 5px 5px 5px grey;
+}
+.images-section p{
+  font-size: 1.5em;
+  text-decoration: underline;
+}
+.content-section{
+  width: 55%;
+
+  margin-right: 5%;
+  margin-left: 2%;
+  padding-right: 5%;
+  position: absolute;
+  display: inline-block;
+}
+.content-section p{
+  font-size: 1.3em;
+}
+
+
+.high-school .images-section img{
+
+  box-shadow: 5px 5px 5px grey;
+
+}
+
+@media only screen and (max-width: 1080px){
+  body{
+    padding-right: 0%
+  }
+
+  .images-section{
+    width: 100%;
+    display: block;
+    text-align: left;
+    margin-left: 0% ;
+    margin-right: 2%;
+    padding-top: 0%;
+    border-right: 0px;
+  }
+  .images-section img{
+    border: 2px solid grey;
+    border-radius: 5%;
+  }
+  .images-section a p{
+    font-size: 1.5em;
+    text-align: left;
+    text-decoration: underline;
+  }
+  .content-section{
+    width: 100%;
+    margin-left: 0%;
+    position: relative;
+    text-align: left;
+    display: block;
+  }
+  .content-section p{
+    text-align: left;
+    font-size: 1.3em;
+  }
+
+
+  .high-school .images-section img{
+
+    border-radius: 20px;
+
+  }
+
+  footer{
+      margin: 1%;
+
+  }
+
+
+}

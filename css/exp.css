@@ -1,0 +1,144 @@
+section{
+  font-family:optima;
+   padding-top:0px;
+
+}
+
+section h1{
+  text-align: center;
+  font-size: 2em;
+  color: red;
+  text-decoration: underline;
+}
+
+.summary{
+  padding: 0% 10%;
+  text-align: center;
+}
+.summary p{
+  font-size: 1.4em;
+  padding-bottom: 1%;
+  border-bottom: 1px solid black;
+}
+.skills{
+  text-align: center;
+}
+.skills #left-side-skills{
+  width: 30%;
+  font-size: 1.5em;
+  display: inline-block;
+
+  margin-right: 5%;
+}
+.skills #right-side-skills{
+
+  width: 30%;
+  font-size: 1.5em;
+  display: inline-block;
+  margin-left: 5%;
+
+}
+
+.skills #left-side-skills li{
+  text-align: left;
+  padding-left: 40%;
+}
+.skills #right-side-skills li{
+  text-align: left;
+  padding-left: 20%;
+}
+
+.line{
+  border-bottom: 1px solid black;
+  margin: 1% 10%;
+}
+.experience{
+  padding: 0% 7%;
+}
+#left-side{
+
+}
+#right-side{
+  text-align: right;
+}
+
+.exp-list ul {
+  font-size: 1.4em;
+  padding-left: 8%;
+}
+
+.exp-list li{
+  padding-top: 0.8em;
+}
+@media only screen and (max-width: 1080px){
+  .skills{
+    text-align: left;
+
+  }
+  .skills #left-side-skills{
+    width: 30%;
+    margin-left: 15%;
+    font-size: 1.5em;
+    display: inline-block;
+    margin-right: 5%;
+  }
+  .skills #right-side-skills{
+
+    width: 30%;
+    font-size: 1.5em;
+    position: absolute;
+    display: inline-block;
+    margin-left: 5%;
+
+
+  }
+
+  .skills #left-side-skills li{
+    text-align: left;
+    padding-left: 0%;
+  }
+  .skills #right-side-skills li{
+    text-align: left;
+    padding-left: 20%;
+  }
+
+}
+
+@media only screen and (max-width: 500px){
+
+
+  .skills #left-side-skills{
+    width: 100%;
+    font-size: 1.5em;
+    display: block;
+    
+    margin-right: 0%;
+    margin-left: 5%;
+
+  }
+  .skills #right-side-skills{
+
+    width: 100%;
+    font-size: 1.5em;
+    position: relative;
+
+    display: block;
+    margin-right: 0%;
+
+  }
+  .skills #left-side-skills li{
+    text-align: left;
+    padding-left: 2%;
+  }
+  .skills #right-side-skills li{
+    text-align: left;
+    padding-left: 2%;
+  }
+
+  footer{
+    margin-top: 5%;
+  }
+
+
+
+}
